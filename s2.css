@@ -1,0 +1,196 @@
+.spider{
+	background-color:red;
+	transform: skewx (10deg) ;
+	width:50px;
+
+
+
+
+
+
+
+
+	height:50px;
+background: radial-gradient(red 10%,black 40%,white 50%);I
+margin-top:50;
+margin-bottom:50px;
+margin-left:50px;
+
+
+
+padding:50px;
+
+
+
+
+
+}
+
+.spider:hover{
+
+
+
+
+
+font-style:italic;
+
+	background-color:skyblue;
+	width:500px;
+
+
+
+
+
+
+
+
+	height:400px;
+
+margin-top:50;
+margin-bottom:50px;
+margin-left:50px;
+
+
+
+padding:50px;
+
+transition:background-color 5s, width 5s
+
+
+
+}
+
+
+#spi2{
+	
+	
+	
+
+	width:200px;
+	height:100px;
+background: linear-gradient(to top,black,white,black);
+
+
+
+
+margin-bottom:50px;
+margin-left:50px;
+padding:50px;
+
+
+ 	animation-name:komola;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	
+	position:relative;
+	animation-direction:alternate;
+		
+}
+
+	
+
+
+@keyframes komola{
+		
+	from{background:red}
+	to{background:green; border-radius:50%}
+
+	0%{left:0;top:0}
+	25%{left:200px;top:0}
+	50%{left:200px; top:200px;}
+	75%{left:0;top:200px}
+	100%{left:0;top:0}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#spi2:hover{
+	
+	
+	background-color:blue;
+	width:200px;
+	height:100px;
+
+
+
+
+
+margin-bottom:50px;
+margin-left:50px;
+padding:50px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+#wrapper{color:red}
+#wrapper{
+border: 10px solid red;
+
+height: 300px;
+width: 300;
+overflow:scroll;
+transition:background-color 3s, width 2s
+
+}
+#wrapper:hover{
+	
+	
+	color:blue;
+	
+	height:1000px;
+width:500;
+overflow:scroll;
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+#menu li{
+	display:inline-block;
+	
+}
+
+#menu li a {
+	color:black;
+	text-decoration:none;
+	background:darkgray;
+	padding:10px;
+		
+}
+
+#menu li a:hover{
+	
+	background: linear-gradient(to top,black,white,black);
+}
